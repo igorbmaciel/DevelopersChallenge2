@@ -15,7 +15,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - CrossCutting", "3 - CrossCutting", "{B58EBF00-5D0F-4E9A-BB9E-09C5D60111F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfxImports.Domain", "src\OfxImports.Domain\OfxImports.Domain.csproj", "{BEC52A97-EB40-44DC-A404-F0EEB4CD757F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEC52A97-EB40-44DC-A404-F0EEB4CD757F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC52A97-EB40-44DC-A404-F0EEB4CD757F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC52A97-EB40-44DC-A404-F0EEB4CD757F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC52A97-EB40-44DC-A404-F0EEB4CD757F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -24,6 +36,7 @@ Global
 		{E96E0E2F-1969-4CEC-A6EB-FED2DACA9E3C} = {790E1D36-45DE-4B97-9157-4609BACB9C1E}
 		{2A879B31-1F24-42CF-9F99-1AAE5ED8838D} = {790E1D36-45DE-4B97-9157-4609BACB9C1E}
 		{B58EBF00-5D0F-4E9A-BB9E-09C5D60111F5} = {790E1D36-45DE-4B97-9157-4609BACB9C1E}
+		{BEC52A97-EB40-44DC-A404-F0EEB4CD757F} = {2A879B31-1F24-42CF-9F99-1AAE5ED8838D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1E4452D-5913-4509-B665-D91A3B4CCDEA}
