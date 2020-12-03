@@ -5,6 +5,7 @@
     "InvalidXmlFile": "Arquivo xml invalido",
     "InvalidOfxSouceFile": "Arquivo souce ofx invalido",
     "InvalidOfxDate": "Data do arquivo ofx invalida",
-    "InvalidTransactionValue": "Dado de transação invalida"
+    "InvalidTransactionValue": "Dado de transação invalida",
+    "InvalidFileName": "Nome do arquivo invalido"
   }
 }
