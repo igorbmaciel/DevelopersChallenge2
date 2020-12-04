@@ -142,4 +142,279 @@
 2020-12-04 11:23:35.030 -03:00 [DBUG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request did not match any endpoints
 2020-12-04 11:23:35.044 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OC0NEC52S"" completed keep alive response.
 2020-12-04 11:23:35.047 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 114.4687ms 302 
-2020-12-04 11:23:35.052 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET ht
+2020-12-04 11:23:35.052 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET ht2020-12-04 18:26:54.456 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Hosting starting
+2020-12-04 18:26:54.678 -03:00 [INFO] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-04 18:26:54.684 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Reading data from file '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys\key-6451677f-594b-4746-8ea0-935fbe159b2f.xml"'.
+2020-12-04 18:26:54.724 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Reading data from file '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys\key-ffd5f8e2-e733-465d-bdb9-44f8388cd262.xml"'.
+2020-12-04 18:26:54.728 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Found key {6451677f-594b-4746-8ea0-935fbe159b2f}.
+2020-12-04 18:26:54.731 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Found key {ffd5f8e2-e733-465d-bdb9-44f8388cd262}.
+2020-12-04 18:26:54.740 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver Considering key {6451677f-594b-4746-8ea0-935fbe159b2f} with expiration date 2021-02-28 18:41:56Z as default key.
+2020-12-04 18:26:54.796 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2020-12-04 18:26:54.797 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor Decrypting secret element using Windows DPAPI.
+2020-12-04 18:26:54.799 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2020-12-04 18:26:54.801 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2020-12-04 18:26:54.804 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2020-12-04 18:26:54.808 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider Using key {6451677f-594b-4746-8ea0-935fbe159b2f} as the default key.
+2020-12-04 18:26:54.808 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Internal.DataProtectionStartupFilter Key ring with default key {6451677f-594b-4746-8ea0-935fbe159b2f} was loaded during application startup.
+2020-12-04 18:26:54.887 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcJsonOptions Compatibility switch "AllowInputFormatterExceptionMessages" in type "MvcJsonOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:26:54.913 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowCombiningAuthorizeFilters" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:26:54.913 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowBindingHeaderValuesToNonStringModelTypes" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:26:54.913 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.M2020-12-04 18:27:29.457 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Hosting starting
+2020-12-04 18:27:29.570 -03:00 [INFO] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-04 18:27:29.573 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Reading data from file '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys\key-6451677f-594b-4746-8ea0-935fbe159b2f.xml"'.
+2020-12-04 18:27:29.599 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Reading data from file '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys\key-ffd5f8e2-e733-465d-bdb9-44f8388cd262.xml"'.
+2020-12-04 18:27:29.603 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Found key {6451677f-594b-4746-8ea0-935fbe159b2f}.
+2020-12-04 18:27:29.605 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Found key {ffd5f8e2-e733-465d-bdb9-44f8388cd262}.
+2020-12-04 18:27:29.611 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver Considering key {6451677f-594b-4746-8ea0-935fbe159b2f} with expiration date 2021-02-28 18:41:56Z as default key.
+2020-12-04 18:27:29.645 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2020-12-04 18:27:29.646 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor Decrypting secret element using Windows DPAPI.
+2020-12-04 18:27:29.647 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2020-12-04 18:27:29.647 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2020-12-04 18:27:29.650 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2020-12-04 18:27:29.652 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider Using key {6451677f-594b-4746-8ea0-935fbe159b2f} as the default key.
+2020-12-04 18:27:29.653 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Internal.DataProtectionStartupFilter Key ring with default key {6451677f-594b-4746-8ea0-935fbe159b2f} was loaded during application startup.
+2020-12-04 18:27:29.706 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcJsonOptions Compatibility switch "AllowInputFormatterExceptionMessages" in type "MvcJsonOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:27:29.730 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowCombiningAuthorizeFilters" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:27:29.730 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowBindingHeaderValuesToNonStringModelTypes" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:27:29.730 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowValidatingTopLevelNodes" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:27:29.730 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "InputFormatterExceptionPolicy" in type "MvcOptions" is using compatibility value MalformedInputExceptions for version Version_2_2
+2020-12-04 18:27:29.730 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "SuppressBindingUndefinedValueToEnumType" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:27:29.730 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "EnableEndpointRouting" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:27:29.730 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "MaxValidationDepth" in type "MvcOptions" is using compatibility value 32 for version Version_2_2
+2020-12-04 18:27:29.730 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowShortCircuitingValidationWhenNoValidatorsArePresent" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:27:29.758 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ApiBehaviorOptions Compatibility switch "SuppressMapClientErrors" in type "ApiBehaviorOptions" is using default value False
+2020-12-04 18:27:29.758 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ApiBehaviorOptions Compatibility switch "SuppressUseValidationProblemDetailsForInvalidModelStateResponses" in type "ApiBehaviorOptions" is using default value False
+2020-12-04 18:27:29.758 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ApiBehaviorOptions Compatibility switch "AllowInferringBindingSourceForCollectionTypesAsFromQuery" in type "ApiBehaviorOptions" is using default value False
+2020-12-04 18:27:29.760 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions Compatibility switch "AllowAreas" in type "RazorPagesOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:27:29.760 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions Compatibility switch "AllowMappingHeadRequestsToGetHandler" in type "RazorPagesOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:27:29.760 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions Compatibility switch "AllowDefaultHandlingForOptionsRequests" in type "RazorPagesOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:27:29.762 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions Compatibility switch "AllowRecompilingViewsOnFileChange" in type "RazorViewEngineOptions" is using explicitly configured value True
+2020-12-04 18:27:29.806 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcViewOptions Compatibility switch "SuppressTempDataAttributePrefix" in type "MvcViewOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:27:29.806 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcViewOptions Compatibility switch "AllowRenderingMaxLengthAttribute" in type "MvcViewOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:27:29.837 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider", "Tnf.AspNetCore.Mvc.ModelBinding.TnfDateTimeModelBinderProvider"]
+2020-12-04 18:27:30.004 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer Failed to locate the development https certificate at 'null'.
+2020-12-04 18:27:30.048 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Hosting started
+2020-12-04 18:27:30.048 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Loaded hosting startup assembly "OfxImports.Web"
+2020-12-04 18:27:30.180 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP48"" started.
+2020-12-04 18:27:30.180 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP49"" started.
+2020-12-04 18:27:30.217 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OJDJSPP48"" received FIN.
+2020-12-04 18:27:30.217 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OJDJSPP49"" received FIN.
+2020-12-04 18:27:30.243 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OJDJSPP48"" sending FIN because: ""The client closed the connection.""
+2020-12-04 18:27:30.243 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OJDJSPP49"" sending FIN because: ""The client closed the connection.""
+2020-12-04 18:27:30.244 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP48"" disconnecting.
+2020-12-04 18:27:30.244 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP49"" disconnecting.
+2020-12-04 18:27:30.252 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP48"" stopped.
+2020-12-04 18:27:30.252 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP49"" stopped.
+2020-12-04 18:27:30.706 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP4A"" started.
+2020-12-04 18:27:30.712 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP4B"" started.
+2020-12-04 18:27:30.793 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/  
+2020-12-04 18:27:30.798 -03:00 [DBUG] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware Wildcard detected, all requests with hosts will be allowed.
+2020-12-04 18:27:30.812 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 18:27:30.821 -03:00 [INFO] Tnf.Settings.Internal.SettingDefinitionManager Settings definitions loaded: [Tnf.Localization.DefaultLanguageName,Tnf.Timing.TimeZone]
+2020-12-04 18:27:30.828 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 18:27:30.863 -03:00 [DBUG] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The request path "" does not match the path filter
+2020-12-04 18:27:30.888 -03:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher No candidates found for the request path '"/"'
+2020-12-04 18:27:30.888 -03:00 [DBUG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request did not match any endpoints
+2020-12-04 18:27:30.902 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP4A"" completed keep alive response.
+2020-12-04 18:27:30.904 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 112.9963ms 302 
+2020-12-04 18:27:30.908 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/ofxImports/swagger/index.html  
+2020-12-04 18:27:30.909 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 18:27:30.909 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 18:27:31.027 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP4A"" completed keep alive response.
+2020-12-04 18:27:31.027 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 118.8476ms 200 text/html;charset=utf-8
+2020-12-04 18:27:31.326 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json  
+2020-12-04 18:27:31.327 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 18:27:31.327 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 18:27:31.457 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP4A"" completed keep alive response.
+2020-12-04 18:27:31.457 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 130.4975ms 200 application/json;charset=utf-8
+2020-12-04 18:27:33.585 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP4C"" started.
+2020-12-04 18:27:33.586 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OJDJSPP4C"" received FIN.
+2020-12-04 18:27:33.586 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OJDJSPP4C"" sending FIN because: ""The client closed the connection.""
+2020-12-04 18:27:33.587 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP4C"" disconnecting.
+2020-12-04 18:27:33.587 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP4D"" started.
+2020-12-04 18:27:33.587 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP4C"" stopped.
+2020-12-04 18:27:33.589 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 POST http://localhost:5033/api/ofxImport application/json 34
+2020-12-04 18:27:33.589 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 18:27:33.589 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 18:27:33.589 -03:00 [DBUG] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware "POST" requests are not supported
+2020-12-04 18:27:33.593 -03:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher 1 candidate(s) found for the request path '"/api/ofxImport"'
+2020-12-04 18:27:33.594 -03:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher Endpoint '"OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)"' with route pattern '"api/ofxImport"' is valid for the request path '"/api/ofxImport"'
+2020-12-04 18:27:33.594 -03:00 [DBUG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request matched endpoint '"OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)"'
+2020-12-04 18:27:33.594 -03:00 [INFO] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '"OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)"'
+2020-12-04 18:27:33.762 -03:00 [INFO] Tnf.Localization.Internal.LocalizationManager Initialized localization source: Poll
+2020-12-04 18:27:33.764 -03:00 [INFO] Tnf.Localization.Internal.LocalizationManager Initialized localization source: Tnf
+2020-12-04 18:27:33.794 -03:00 [INFO] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Route matched with "{action = \"CreateAsync\", controller = \"OfxImports\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(OfxImports.Domain.Queries.Request.AddOfxImportCommand)" on controller "OfxImports.Web.Controllers.OfxImportsController" ("OfxImports.Web").
+2020-12-04 18:27:33.795 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "authorization" filters (in the following order): ["None"]
+2020-12-04 18:27:33.795 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+2020-12-04 18:27:33.795 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2020-12-04 18:27:33.795 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "exception" filters (in the following order): ["Tnf.AspNetCore.Mvc.Exception.TnfExceptionActionFilter"]
+2020-12-04 18:27:33.795 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+2020-12-04 18:27:33.840 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to bind parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"' ...
+2020-12-04 18:27:33.846 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder Attempting to bind parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"' using the name '""' in request data ...
+2020-12-04 18:27:33.847 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2020-12-04 18:27:33.847 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2020-12-04 18:27:33.875 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP4D"", Request id ""0HM4OJDJSPP4D:00000001"": started reading request body.
+2020-12-04 18:27:33.897 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJDJSPP4D"", Request id ""0HM4OJDJSPP4D:00000001"": done reading request body.
+2020-12-04 18:27:33.911 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder Done attempting to bind parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"'.
+2020-12-04 18:27:33.911 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to bind parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"'.
+2020-12-04 18:27:33.911 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to validate the bound parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"' ...
+2020-12-04 18:27:33.919 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to validate the bound parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"'.
+2020-12-04 18:27:33.990 -03:00 [INFO] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method "OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)" - Validation state: Valid
+2020-12-04 18:27:41.516 -03:00 [EROR] Tnf.AspNetCore.Mvc.Exception.TnfExceptionActionFilter Este host não é conhecido
+System.Net.Sockets.SocketException (11001): Este host não é conhecido
+   at System.Net.Dns.InternalGetHostByName(String hostName)
+   at System.Net.Dns.GetHostAddresses(String hostNameOrAddress)
+   at Npgsql.NpgsqlConnector.Connect(NpgsqlTimeout timeout) in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 663
+   at Npgsql.NpgsqlConnector.RawOpen(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken) in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 555
+   at Npgsql.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken) in C:\projects\npgsql\src\Npgsql\NpgsqlConnector.cs:line 414
+   at Npgsql.ConnectorPool.AllocateLong(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken) in C:\projects\npgsql\src\Npgsql\ConnectorPool.cs:line 246
+   at Npgsql.NpgsqlConnection.<>c__DisplayClass32_0.<<Open>g__OpenLong|0>d.MoveNext() in C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:line 301
+--- End of stack trace from previous location where exception was thrown ---
+   at Npgsql.NpgsqlConnection.Open() in C:\projects\npgsql\src\Npgsql\NpgsqlConnection.cs:line 153
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded) in C:\projects\npgsql-entityframeworkcore-postgresql\src\EFCore.PG\Storage\Internal\NpgsqlExecutionStrategy.cs:line 28
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.QueryMethodProvider.GetResult[TResult](IEnumerable`1 valueBuffers, Boolean throwOnNullResult)
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ResultEnumerable`1.GetEnumerator()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Linq.Enumerable.TryGetFirst[TSource](IEnumerable`1 source, Boolean& found)
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass15_1`1.<CompileQueryCore>b__0(QueryContext qc)
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source, Expression`1 predicate)
+   at OfxImports.Infra.Repositories.BankAccountRepository.BankAccountAlreadyExists(Int32 code) in D:\Igor\DevelopersChallenge2\SRC\OfxImports\src\OfxImports.Infra\Repositories\BankAccountRepository.cs:line 26
+   at OfxImports.Domain.Handlers.AddOfxImportHandler.Handle(AddOfxImportCommand command, CancellationToken cancellationToken) in D:\Igor\DevelopersChallenge2\SRC\OfxImports\src\OfxImports.Domain\Handlers\AddOfxImportHandler.cs:line 54
+   at MediatR.Pipeline.RequestPostProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at MediatR.Pipeline.RequestPreProcessorBehavior`2.Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate`1 next)
+   at OfxImports.Application.Services.OfxImportAppService.AddOfxImport(AddOfxImportCommand command) in D:\Igor\DevelopersChallenge2\SRC\OfxImports\src\OfxImports.Application\Services\OfxImportAppService.cs:line 24
+   at OfxImports.Web.Controllers.OfxImportsController.CreateAsync(AddOfxImportCommand command) in D:\Igor\DevelopersChallenge2\SRC\OfxImports\src\OfxImports.Web\Controllers\OfxImportsController.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& stat2020-12-04 18:28:44.749 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Hosting starting
+2020-12-04 18:28:44.854 -03:00 [INFO] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-04 18:28:44.857 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Reading data from file '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys\key-6451677f-594b-4746-8ea0-935fbe159b2f.xml"'.
+2020-12-04 18:28:44.879 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Reading data from file '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys\key-ffd5f8e2-e733-465d-bdb9-44f8388cd262.xml"'.
+2020-12-04 18:28:44.882 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Found key {6451677f-594b-4746-8ea0-935fbe159b2f}.
+2020-12-04 18:28:44.884 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Found key {ffd5f8e2-e733-465d-bdb9-44f8388cd262}.
+2020-12-04 18:28:44.890 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver Considering key {6451677f-594b-4746-8ea0-935fbe159b2f} with expiration date 2021-02-28 18:41:56Z as default key.
+2020-12-04 18:28:44.918 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2020-12-04 18:28:44.919 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor Decrypting secret element using Windows DPAPI.
+2020-12-04 18:28:44.920 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2020-12-04 18:28:44.921 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2020-12-04 18:28:44.923 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2020-12-04 18:28:44.926 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider Using key {6451677f-594b-4746-8ea0-935fbe159b2f} as the default key.
+2020-12-04 18:28:44.926 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Internal.DataProtectionStartupFilter Key ring with default key {6451677f-594b-4746-8ea0-935fbe159b2f} was loaded during application startup.
+2020-12-04 18:28:44.982 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcJsonOptions Compatibility switch "AllowInputFormatterExceptionMessages" in type "MvcJsonOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:28:45.004 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowCombiningAuthorizeFilters" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:28:45.004 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowBindingHeaderValuesToNonStringModelTypes" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:28:45.004 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowValidatingTopLevelNodes" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:28:45.004 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "InputFormatterExceptionPolicy" in type "MvcOptions" is using compatibility value MalformedInputExceptions for version Version_2_2
+2020-12-04 18:28:45.004 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "SuppressBindingUndefinedValueToEnumType" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:28:45.004 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "EnableEndpointRouting" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:28:45.004 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "MaxValidationDepth" in type "MvcOptions" is using compatibility value 32 for version Version_2_2
+2020-12-04 18:28:45.004 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowShortCircuitingValidationWhenNoValidatorsArePresent" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:28:45.033 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ApiBehaviorOptions Compatibility switch "SuppressMapClientErrors" in type "ApiBehaviorOptions" is using default value False
+2020-12-04 18:28:45.033 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ApiBehaviorOptions Compatibility switch "SuppressUseValidationProblemDetailsForInvalidModelStateResponses" in type "ApiBehaviorOptions" is using default value False
+2020-12-04 18:28:45.033 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ApiBehaviorOptions Compatibility switch "AllowInferringBindingSourceForCollectionTypesAsFromQuery" in type "ApiBehaviorOptions" is using default value False
+2020-12-04 18:28:45.035 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions Compatibility switch "AllowAreas" in type "RazorPagesOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:28:45.035 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions Compatibility switch "AllowMappingHeadRequestsToGetHandler" in type "RazorPagesOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:28:45.035 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions Compatibility switch "AllowDefaultHandlingForOptionsRequests" in type "RazorPagesOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:28:45.036 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions Compatibility switch "AllowRecompilingViewsOnFileChange" in type "RazorViewEngineOptions" is using explicitly configured value True
+2020-12-04 18:28:45.074 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcViewOptions Compatibility switch "SuppressTempDataAttributePrefix" in type "MvcViewOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:28:45.074 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcViewOptions Compatibility switch "AllowRenderingMaxLengthAttribute" in type "MvcViewOptions" is using compatibility value True for version Version_2_2
+2020-12-04 18:28:45.111 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider", "Tnf.AspNetCore.Mvc.ModelBinding.TnfDateTimeModelBinderProvider"]
+2020-12-04 18:28:45.287 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer Failed to locate the development https certificate at 'null'.
+2020-12-04 18:28:45.330 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Hosting started
+2020-12-04 18:28:45.330 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Loaded hosting startup assembly "OfxImports.Web"
+2020-12-04 18:28:45.600 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC230U"" started.
+2020-12-04 18:28:45.600 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC230T"" started.
+2020-12-04 18:28:45.636 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OJEAC230T"" received FIN.
+2020-12-04 18:28:45.636 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OJEAC230U"" received FIN.
+2020-12-04 18:28:45.653 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OJEAC230U"" sending FIN because: ""The client closed the connection.""
+2020-12-04 18:28:45.653 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OJEAC230T"" sending FIN because: ""The client closed the connection.""
+2020-12-04 18:28:45.655 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC230U"" disconnecting.
+2020-12-04 18:28:45.655 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC230T"" disconnecting.
+2020-12-04 18:28:45.673 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC230U"" stopped.
+2020-12-04 18:28:45.673 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC230T"" stopped.
+2020-12-04 18:28:46.056 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC230V"" started.
+2020-12-04 18:28:46.069 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC2310"" started.
+2020-12-04 18:28:46.155 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/  
+2020-12-04 18:28:46.158 -03:00 [DBUG] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware Wildcard detected, all requests with hosts will be allowed.
+2020-12-04 18:28:46.171 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 18:28:46.179 -03:00 [INFO] Tnf.Settings.Internal.SettingDefinitionManager Settings definitions loaded: [Tnf.Localization.DefaultLanguageName,Tnf.Timing.TimeZone]
+2020-12-04 18:28:46.186 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 18:28:46.225 -03:00 [DBUG] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The request path "" does not match the path filter
+2020-12-04 18:28:46.250 -03:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher No candidates found for the request path '"/"'
+2020-12-04 18:28:46.250 -03:00 [DBUG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request did not match any endpoints
+2020-12-04 18:28:46.264 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC230V"" completed keep alive response.
+2020-12-04 18:28:46.267 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 112.7088ms 302 
+2020-12-04 18:28:46.273 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/ofxImports/swagger/index.html  
+2020-12-04 18:28:46.273 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 18:28:46.273 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 18:28:46.387 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC230V"" completed keep alive response.
+2020-12-04 18:28:46.387 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 114.8179ms 200 text/html;charset=utf-8
+2020-12-04 18:28:46.708 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/swagger/v1/swagger.json  
+2020-12-04 18:28:46.708 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 18:28:46.708 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 18:28:46.829 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC230V"" completed keep alive response.
+2020-12-04 18:28:46.830 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 121.4296ms 200 application/json;charset=utf-8
+2020-12-04 18:28:48.708 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC2311"" started.
+2020-12-04 18:28:48.710 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC2312"" started.
+2020-12-04 18:28:48.721 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OJEAC2311"" received FIN.
+2020-12-04 18:28:48.723 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 POST http://localhost:5033/api/ofxImport application/json 34
+2020-12-04 18:28:48.723 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 18:28:48.723 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 18:28:48.723 -03:00 [DBUG] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware "POST" requests are not supported
+2020-12-04 18:28:48.724 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OJEAC2311"" sending FIN because: ""The client closed the connection.""
+2020-12-04 18:28:48.724 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC2311"" disconnecting.
+2020-12-04 18:28:48.728 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC2311"" stopped.
+2020-12-04 18:28:48.730 -03:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher 1 candidate(s) found for the request path '"/api/ofxImport"'
+2020-12-04 18:28:48.731 -03:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher Endpoint '"OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)"' with route pattern '"api/ofxImport"' is valid for the request path '"/api/ofxImport"'
+2020-12-04 18:28:48.732 -03:00 [DBUG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request matched endpoint '"OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)"'
+2020-12-04 18:28:48.732 -03:00 [INFO] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '"OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)"'
+2020-12-04 18:28:48.884 -03:00 [INFO] Tnf.Localization.Internal.LocalizationManager Initialized localization source: Poll
+2020-12-04 18:28:48.886 -03:00 [INFO] Tnf.Localization.Internal.LocalizationManager Initialized localization source: Tnf
+2020-12-04 18:28:48.904 -03:00 [INFO] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Route matched with "{action = \"CreateAsync\", controller = \"OfxImports\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(OfxImports.Domain.Queries.Request.AddOfxImportCommand)" on controller "OfxImports.Web.Controllers.OfxImportsController" ("OfxImports.Web").
+2020-12-04 18:28:48.904 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "authorization" filters (in the following order): ["None"]
+2020-12-04 18:28:48.905 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+2020-12-04 18:28:48.905 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2020-12-04 18:28:48.905 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "exception" filters (in the following order): ["Tnf.AspNetCore.Mvc.Exception.TnfExceptionActionFilter"]
+2020-12-04 18:28:48.905 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+2020-12-04 18:28:48.916 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to bind parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"' ...
+2020-12-04 18:28:48.918 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder Attempting to bind parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"' using the name '""' in request data ...
+2020-12-04 18:28:48.919 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder Rejected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonPatchInputFormatter"' for content type '"application/json"'.
+2020-12-04 18:28:48.919 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder Selected input formatter '"Microsoft.AspNetCore.Mvc.Formatters.JsonInputFormatter"' for content type '"application/json"'.
+2020-12-04 18:28:48.924 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC2312"", Request id ""0HM4OJEAC2312:00000001"": started reading request body.
+2020-12-04 18:28:48.933 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC2312"", Request id ""0HM4OJEAC2312:00000001"": done reading request body.
+2020-12-04 18:28:48.940 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder Done attempting to bind parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"'.
+2020-12-04 18:28:48.940 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to bind parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"'.
+2020-12-04 18:28:48.940 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to validate the bound parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"' ...
+2020-12-04 18:28:48.946 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Done attempting to validate the bound parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"'.
+2020-12-04 18:28:49.015 -03:00 [INFO] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executing action method "OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)" - Validation state: Valid
+2020-12-04 18:28:50.820 -03:00 [INFO] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action method "OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)", returned result "Microsoft.AspNetCore.Mvc.StatusCodeResult" in 1802.7694ms.
+2020-12-04 18:28:50.831 -03:00 [INFO] Microsoft.AspNetCore.Mvc.StatusCodeResult Executing HttpStatusCodeResult, setting HTTP status code 201
+2020-12-04 18:28:50.836 -03:00 [INFO] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Executed action "OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)" in 1928.6876ms
+2020-12-04 18:28:50.838 -03:00 [INFO] Microsoft.AspNetCore.Routing.EndpointMiddleware Executed endpoint '"OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)"'
+2020-12-04 18:28:50.845 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OJEAC2312"" completed keep alive response.
+2020-12-04 18:28:50.846 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 2123.05ms 201 
+2020-12-04 18:29:06.503 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 POST http://localhost:5033/api/ofxImport application/json 34
+2020-12-04 18:29:06.503 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 18:29:06.503 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 18:29:06.503 -03:00 [DBUG] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware "POST" requests are not supported
+2020-12-04 18:29:06.504 -03:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher 1 candidate(s) found for the request path '"/api/ofxImport"'
+2020-12-04 18:29:06.504 -03:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher Endpoint '"OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)"' with route pattern '"api/ofxImport"' is valid for the request path '"/api/ofxImport"'
+2020-12-04 18:29:06.504 -03:00 [DBUG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request matched endpoint '"OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)"'
+2020-12-04 18:29:06.504 -03:00 [INFO] Microsoft.AspNetCore.Routing.EndpointMiddleware Executing endpoint '"OfxImports.Web.Controllers.OfxImportsController.CreateAsync (OfxImports.Web)"'
+2020-12-04 18:29:06.504 -03:00 [INFO] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Route matched with "{action = \"CreateAsync\", controller = \"OfxImports\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(OfxImports.Domain.Queries.Request.AddOfxImportCommand)" on controller "OfxImports.Web.Controllers.OfxImportsController" ("OfxImports.Web").
+2020-12-04 18:29:06.504 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "authorization" filters (in the following order): ["None"]
+2020-12-04 18:29:06.504 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+2020-12-04 18:29:06.504 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.Internal.ControllerActionFilter (Order: -2147483648)", "Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2020-12-04 18:29:06.504 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "exception" filters (in the following order): ["Tnf.AspNetCore.Mvc.Exception.TnfExceptionActionFilter"]
+2020-12-04 18:29:06.504 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Internal.SaveTempDataFilter"]
+2020-12-04 18:29:06.505 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder Attempting to bind parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"' ...
+2020-12-04 18:29:06.505 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder Attempting to bind parameter '"command"' of type '"OfxImports.Domain.Queries.Request.AddOfxImportCommand"' using the name '""' in request data ...
+2020-12-04 18:29:06.505 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyMo
