@@ -1,0 +1,145 @@
+2020-12-04 11:21:44.108 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Hosting starting
+2020-12-04 11:21:44.285 -03:00 [INFO] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-04 11:21:44.291 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Reading data from file '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys\key-6451677f-594b-4746-8ea0-935fbe159b2f.xml"'.
+2020-12-04 11:21:44.357 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Reading data from file '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys\key-ffd5f8e2-e733-465d-bdb9-44f8388cd262.xml"'.
+2020-12-04 11:21:44.366 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Found key {6451677f-594b-4746-8ea0-935fbe159b2f}.
+2020-12-04 11:21:44.373 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Found key {ffd5f8e2-e733-465d-bdb9-44f8388cd262}.
+2020-12-04 11:21:44.382 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver Considering key {6451677f-594b-4746-8ea0-935fbe159b2f} with expiration date 2021-02-28 18:41:56Z as default key.
+2020-12-04 11:21:44.418 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2020-12-04 11:21:44.418 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor Decrypting secret element using Windows DPAPI.
+2020-12-04 11:21:44.419 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2020-12-04 11:21:44.420 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2020-12-04 11:21:44.422 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2020-12-04 11:21:44.426 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider Using key {6451677f-594b-4746-8ea0-935fbe159b2f} as the default key.
+2020-12-04 11:21:44.426 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Internal.DataProtectionStartupFilter Key ring with default key {6451677f-594b-4746-8ea0-935fbe159b2f} was loaded during application startup.
+2020-12-04 11:21:44.548 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcJsonOptions Compatibility switch "AllowInputFormatterExceptionMessages" in type "MvcJsonOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:21:44.587 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowCombiningAuthorizeFilters" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:21:44.587 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowBindingHeaderValuesToNonStringModelTypes" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:21:44.587 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowValidatingTopLevelNodes" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:21:44.587 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "InputFormatterExceptionPolicy" in type "MvcOptions" is using compatibility value MalformedInputExceptions for version Version_2_2
+2020-12-04 11:21:44.587 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "SuppressBindingUndefinedValueToEnumType" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:21:44.587 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "EnableEndpointRouting" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:21:44.587 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "MaxValidationDepth" in type "MvcOptions" is using compatibility value 32 for version Version_2_2
+2020-12-04 11:21:44.587 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowShortCircuitingValidationWhenNoValidatorsArePresent" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:21:44.630 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ApiBehaviorOptions Compatibility switch "SuppressMapClientErrors" in type "ApiBehaviorOptions" is using default value False
+2020-12-04 11:21:44.630 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ApiBehaviorOptions Compatibility switch "SuppressUseValidationProblemDetailsForInvalidModelStateResponses" in type "ApiBehaviorOptions" is using default value False
+2020-12-04 11:21:44.630 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ApiBehaviorOptions Compatibility switch "AllowInferringBindingSourceForCollectionTypesAsFromQuery" in type "ApiBehaviorOptions" is using default value False
+2020-12-04 11:21:44.634 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions Compatibility switch "AllowAreas" in type "RazorPagesOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:21:44.634 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions Compatibility switch "AllowMappingHeadRequestsToGetHandler" in type "RazorPagesOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:21:44.634 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions Compatibility switch "AllowDefaultHandlingForOptionsRequests" in type "RazorPagesOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:21:44.636 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions Compatibility switch "AllowRecompilingViewsOnFileChange" in type "RazorViewEngineOptions" is using explicitly configured value True
+2020-12-04 11:21:44.687 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcViewOptions Compatibility switch "SuppressTempDataAttributePrefix" in type "MvcViewOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:21:44.687 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcViewOptions Compatibility switch "AllowRenderingMaxLengthAttribute" in type "MvcViewOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:21:44.738 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider", "Tnf.AspNetCore.Mvc.ModelBinding.TnfDateTimeModelBinderProvider"]
+2020-12-04 11:21:45.022 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer Failed to locate the development https certificate at 'null'.
+2020-12-04 11:21:45.083 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Hosting started
+2020-12-04 11:21:45.083 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Loaded hosting startup assembly "OfxImports.Web"
+2020-12-04 11:21:45.327 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2L"" started.
+2020-12-04 11:21:45.327 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2K"" started.
+2020-12-04 11:21:45.371 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OBVMU2S2K"" received FIN.
+2020-12-04 11:21:45.371 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OBVMU2S2L"" received FIN.
+2020-12-04 11:21:45.391 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OBVMU2S2K"" sending FIN because: ""The client closed the connection.""
+2020-12-04 11:21:45.391 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OBVMU2S2L"" sending FIN because: ""The client closed the connection.""
+2020-12-04 11:21:45.392 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2K"" disconnecting.
+2020-12-04 11:21:45.392 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2L"" disconnecting.
+2020-12-04 11:21:45.414 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2L"" stopped.
+2020-12-04 11:21:45.414 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2K"" stopped.
+2020-12-04 11:21:45.819 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2M"" started.
+2020-12-04 11:21:45.829 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2N"" started.
+2020-12-04 11:21:45.913 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/  
+2020-12-04 11:21:45.916 -03:00 [DBUG] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware Wildcard detected, all requests with hosts will be allowed.
+2020-12-04 11:21:45.931 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 11:21:45.940 -03:00 [INFO] Tnf.Settings.Internal.SettingDefinitionManager Settings definitions loaded: [Tnf.Localization.DefaultLanguageName,Tnf.Timing.TimeZone]
+2020-12-04 11:21:45.950 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 11:21:45.991 -03:00 [DBUG] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The request path "" does not match the path filter
+2020-12-04 11:21:46.022 -03:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher No candidates found for the request path '"/"'
+2020-12-04 11:21:46.022 -03:00 [DBUG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request did not match any endpoints
+2020-12-04 11:21:46.045 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2M"" completed keep alive response.
+2020-12-04 11:21:46.049 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 136.3415ms 302 
+2020-12-04 11:21:46.052 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/ofxImports/swagger  
+2020-12-04 11:21:46.052 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 11:21:46.052 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 11:21:46.053 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2M"" completed keep alive response.
+2020-12-04 11:21:46.053 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 1.5067ms 301 
+2020-12-04 11:21:46.058 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/ofxImports/swagger/index.html  
+2020-12-04 11:21:46.058 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 11:21:46.058 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 11:21:46.175 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2M"" completed keep alive response.
+2020-12-04 11:21:46.175 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 117.4524ms 200 text/html;charset=utf-8
+2020-12-04 11:21:46.203 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/ofxImports/swagger/swagger-ui.css  
+2020-12-04 11:21:46.203 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 11:21:46.204 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 11:21:46.205 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/ofxImports/swagger/swagger-ui-bundle.js  
+2020-12-04 11:21:46.205 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 11:21:46.206 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 11:21:46.206 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2O"" started.
+2020-12-04 11:21:46.208 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/ofxImports/swagger/swagger-ui-standalone-preset.js  
+2020-12-04 11:21:46.208 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 11:21:46.208 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 11:21:46.264 -03:00 [INFO] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2020-12-04 11:21:46.264 -03:00 [INFO] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2020-12-04 11:21:46.285 -03:00 [INFO] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2020-12-04 11:21:46.286 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2O"" completed keep alive response.
+2020-12-04 11:21:46.286 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2M"" completed keep alive response.
+2020-12-04 11:21:46.286 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OBVMU2S2N"" completed keep alive response.
+2020-12-04 11:21:46.286 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 82.5088ms 200 text/css
+2020-12-04 11:21:46.286 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 78.6564ms 200 application/javascript
+2020-12-04 11:21:46.286 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 80.5128ms 200 application/javasc2020-12-04 11:23:33.751 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Hosting starting
+2020-12-04 11:23:33.850 -03:00 [INFO] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager User profile is available. Using '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-04 11:23:33.853 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Reading data from file '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys\key-6451677f-594b-4746-8ea0-935fbe159b2f.xml"'.
+2020-12-04 11:23:33.876 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository Reading data from file '"C:\Users\igorb\AppData\Local\ASP.NET\DataProtection-Keys\key-ffd5f8e2-e733-465d-bdb9-44f8388cd262.xml"'.
+2020-12-04 11:23:33.879 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Found key {6451677f-594b-4746-8ea0-935fbe159b2f}.
+2020-12-04 11:23:33.881 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager Found key {ffd5f8e2-e733-465d-bdb9-44f8388cd262}.
+2020-12-04 11:23:33.887 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver Considering key {6451677f-594b-4746-8ea0-935fbe159b2f} with expiration date 2021-02-28 18:41:56Z as default key.
+2020-12-04 11:23:33.916 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2020-12-04 11:23:33.917 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor Decrypting secret element using Windows DPAPI.
+2020-12-04 11:23:33.918 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.TypeForwardingActivator Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+2020-12-04 11:23:33.919 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+2020-12-04 11:23:33.921 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+2020-12-04 11:23:33.923 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider Using key {6451677f-594b-4746-8ea0-935fbe159b2f} as the default key.
+2020-12-04 11:23:33.924 -03:00 [DBUG] Microsoft.AspNetCore.DataProtection.Internal.DataProtectionStartupFilter Key ring with default key {6451677f-594b-4746-8ea0-935fbe159b2f} was loaded during application startup.
+2020-12-04 11:23:33.980 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcJsonOptions Compatibility switch "AllowInputFormatterExceptionMessages" in type "MvcJsonOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:23:34.001 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowCombiningAuthorizeFilters" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:23:34.001 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowBindingHeaderValuesToNonStringModelTypes" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:23:34.001 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowValidatingTopLevelNodes" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:23:34.001 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "InputFormatterExceptionPolicy" in type "MvcOptions" is using compatibility value MalformedInputExceptions for version Version_2_2
+2020-12-04 11:23:34.001 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "SuppressBindingUndefinedValueToEnumType" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:23:34.002 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "EnableEndpointRouting" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:23:34.002 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "MaxValidationDepth" in type "MvcOptions" is using compatibility value 32 for version Version_2_2
+2020-12-04 11:23:34.002 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcOptions Compatibility switch "AllowShortCircuitingValidationWhenNoValidatorsArePresent" in type "MvcOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:23:34.030 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ApiBehaviorOptions Compatibility switch "SuppressMapClientErrors" in type "ApiBehaviorOptions" is using default value False
+2020-12-04 11:23:34.030 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ApiBehaviorOptions Compatibility switch "SuppressUseValidationProblemDetailsForInvalidModelStateResponses" in type "ApiBehaviorOptions" is using default value False
+2020-12-04 11:23:34.030 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ApiBehaviorOptions Compatibility switch "AllowInferringBindingSourceForCollectionTypesAsFromQuery" in type "ApiBehaviorOptions" is using default value False
+2020-12-04 11:23:34.032 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions Compatibility switch "AllowAreas" in type "RazorPagesOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:23:34.032 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions Compatibility switch "AllowMappingHeadRequestsToGetHandler" in type "RazorPagesOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:23:34.033 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.RazorPages.RazorPagesOptions Compatibility switch "AllowDefaultHandlingForOptionsRequests" in type "RazorPagesOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:23:34.034 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.Razor.RazorViewEngineOptions Compatibility switch "AllowRecompilingViewsOnFileChange" in type "RazorViewEngineOptions" is using explicitly configured value True
+2020-12-04 11:23:34.073 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcViewOptions Compatibility switch "SuppressTempDataAttributePrefix" in type "MvcViewOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:23:34.073 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.MvcViewOptions Compatibility switch "AllowRenderingMaxLengthAttribute" in type "MvcViewOptions" is using compatibility value True for version Version_2_2
+2020-12-04 11:23:34.111 -03:00 [DBUG] Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider", "Tnf.AspNetCore.Mvc.ModelBinding.TnfDateTimeModelBinderProvider"]
+2020-12-04 11:23:34.280 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer Failed to locate the development https certificate at 'null'.
+2020-12-04 11:23:34.320 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Hosting started
+2020-12-04 11:23:34.320 -03:00 [DBUG] Microsoft.AspNetCore.Hosting.Internal.WebHost Loaded hosting startup assembly "OfxImports.Web"
+2020-12-04 11:23:34.409 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OC0NEC52Q"" started.
+2020-12-04 11:23:34.409 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OC0NEC52R"" started.
+2020-12-04 11:23:34.445 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OC0NEC52Q"" received FIN.
+2020-12-04 11:23:34.445 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OC0NEC52R"" received FIN.
+2020-12-04 11:23:34.462 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OC0NEC52Q"" sending FIN because: ""The client closed the connection.""
+2020-12-04 11:23:34.462 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets Connection id ""0HM4OC0NEC52R"" sending FIN because: ""The client closed the connection.""
+2020-12-04 11:23:34.463 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OC0NEC52Q"" disconnecting.
+2020-12-04 11:23:34.463 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OC0NEC52R"" disconnecting.
+2020-12-04 11:23:34.488 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OC0NEC52Q"" stopped.
+2020-12-04 11:23:34.488 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OC0NEC52R"" stopped.
+2020-12-04 11:23:34.850 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OC0NEC52S"" started.
+2020-12-04 11:23:34.874 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OC0NEC52T"" started.
+2020-12-04 11:23:34.933 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET http://localhost:5033/  
+2020-12-04 11:23:34.936 -03:00 [DBUG] Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware Wildcard detected, all requests with hosts will be allowed.
+2020-12-04 11:23:34.949 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfUserRequestCultureProvider TnfSession.UserId == null
+2020-12-04 11:23:34.956 -03:00 [INFO] Tnf.Settings.Internal.SettingDefinitionManager Settings definitions loaded: [Tnf.Localization.DefaultLanguageName,Tnf.Timing.TimeZone]
+2020-12-04 11:23:34.963 -03:00 [DBUG] Tnf.AspNetCore.Localization.TnfDefaultRequestCultureProvider Default culture get from SettingManager: pt-BR
+2020-12-04 11:23:35.000 -03:00 [DBUG] Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware The request path "" does not match the path filter
+2020-12-04 11:23:35.030 -03:00 [DBUG] Microsoft.AspNetCore.Routing.Matching.DfaMatcher No candidates found for the request path '"/"'
+2020-12-04 11:23:35.030 -03:00 [DBUG] Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware Request did not match any endpoints
+2020-12-04 11:23:35.044 -03:00 [DBUG] Microsoft.AspNetCore.Server.Kestrel Connection id ""0HM4OC0NEC52S"" completed keep alive response.
+2020-12-04 11:23:35.047 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request finished in 114.4687ms 302 
+2020-12-04 11:23:35.052 -03:00 [INFO] Microsoft.AspNetCore.Hosting.Internal.WebHost Request starting HTTP/1.1 GET ht
