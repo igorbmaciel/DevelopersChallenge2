@@ -86,10 +86,11 @@ namespace OfxImports.Domain.Handlers
 
         private AddOfxImportResponse AddOfxImportResponse(BankAccount bankAccount, List<Transaction> transactionList)
         {
+            bankAccount.TransactionList = transactionList;
+
             return new AddOfxImportResponse()
             {
-                BankAccount = bankAccount,
-                TransactionList = transactionList
+                BankAccount = bankAccount
             };
         }
     }
