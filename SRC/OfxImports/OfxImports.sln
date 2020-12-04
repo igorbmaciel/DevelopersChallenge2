@@ -15,7 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - CrossCutting", "3 - CrossCutting", "{B58EBF00-5D0F-4E9A-BB9E-09C5D60111F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfxImports.Domain", "src\OfxImports.Domain\OfxImports.Domain.csproj", "{BEC52A97-EB40-44DC-A404-F0EEB4CD757F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfxImports.Domain", "src\OfxImports.Domain\OfxImports.Domain.csproj", "{BEC52A97-EB40-44DC-A404-F0EEB4CD757F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfxImports.Infra", "src\OfxImports.Infra\OfxImports.Infra.csproj", "{1BAA05D0-9184-4AA4-B53B-649167D99BFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{BEC52A97-EB40-44DC-A404-F0EEB4CD757F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEC52A97-EB40-44DC-A404-F0EEB4CD757F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEC52A97-EB40-44DC-A404-F0EEB4CD757F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAA05D0-9184-4AA4-B53B-649167D99BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAA05D0-9184-4AA4-B53B-649167D99BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAA05D0-9184-4AA4-B53B-649167D99BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAA05D0-9184-4AA4-B53B-649167D99BFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +43,7 @@ Global
 		{2A879B31-1F24-42CF-9F99-1AAE5ED8838D} = {790E1D36-45DE-4B97-9157-4609BACB9C1E}
 		{B58EBF00-5D0F-4E9A-BB9E-09C5D60111F5} = {790E1D36-45DE-4B97-9157-4609BACB9C1E}
 		{BEC52A97-EB40-44DC-A404-F0EEB4CD757F} = {2A879B31-1F24-42CF-9F99-1AAE5ED8838D}
+		{1BAA05D0-9184-4AA4-B53B-649167D99BFF} = {B58EBF00-5D0F-4E9A-BB9E-09C5D60111F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1E4452D-5913-4509-B665-D91A3B4CCDEA}

@@ -1,4 +1,7 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using MediatR;
+using Microsoft.Extensions.Configuration;
+using OfxImports.Domain.Queries.Request;
+using System.Reflection;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
@@ -13,6 +16,7 @@ namespace Microsoft.Extensions.DependencyInjection
 
         private static void ConfigureMediatR(this IServiceCollection services)
         {
+            services.AddMediatR(typeof(AddOfxImportCommand).GetTypeInfo().Assembly);
         }
     }
 }
