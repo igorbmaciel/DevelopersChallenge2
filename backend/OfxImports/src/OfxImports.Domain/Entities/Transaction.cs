@@ -20,31 +20,25 @@ namespace OfxImports.Domain.Entities
 
         public double TransactionValue { get; private set; }
 
-        public string TransactionId { get; private set; }
-
         public string Description { get; private set; }
-
-        public long Checksum { get; private set; }
 
         public virtual BankAccount BankAccount { get; internal set; }
 
         internal virtual ICollection<Transaction> TransactionList { get; set; }
 
-        public Transaction(string type, DateTime date, double transactionValue, string transactionId, string description, long checksum, Guid bankAccountId)
+        public Transaction(string type, DateTime date, double transactionValue, string description, Guid bankAccountId)
         {
             Id = Guid.NewGuid();
             BankAccountId = bankAccountId;
             Type = type;
             Date = date;
             TransactionValue = transactionValue;
-            TransactionId = transactionId;
             Description = description;
-            Checksum = checksum;
         }
 
-        internal void AddTransaction(string type, DateTime date, double transactionValue, string transactionId, string description, long checksum, Guid bankAccountId)
+        internal void AddTransaction(string type, DateTime date, double transactionValue, string description, Guid bankAccountId)
         {
-            var transation =  new Transaction(type, date, transactionValue, transactionId, description, checksum, bankAccountId);
+            var transation =  new Transaction(type, date, transactionValue, description, bankAccountId);
             TransactionList.Add(transation);
         }
 

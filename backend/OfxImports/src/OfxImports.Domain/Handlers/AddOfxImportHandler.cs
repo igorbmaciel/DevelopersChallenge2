@@ -50,19 +50,38 @@ namespace OfxImports.Domain.Handlers
 
             bankAccount.AddBankAccount(extractResponse.BankAccount.Type, extractResponse.BankAccount.AgencyCode, extractResponse.BankAccount.Code, extractResponse.BankAccount.AccountCode);
 
-            extractResponse.Transactions.ForEach(t => transaction.AddTransaction(t.Type, t.Date, t.TransactionValue, t.Id, t.Description, t.Checksum, bankAccount.Id));
+            extractResponse.Transactions.ForEach(t => transaction.AddTransaction(t.Type, t.Date, t.TransactionValue, t.Description, bankAccount.Id));
+
+            var transactionOldList = await _transactionRepository.GetAllTransactions();
+
+            var transactionsToAdd = SetTransactionList(transaction.TransactionList.ToList(), transactionOldList);
 
             using (var uow = _unitOfWorkManager.Begin())
             {
-                await _bankAccountRepository.AddBankAccount(bankAccount);
+                if (!await _bankAccountRepository.BankAccountAlreadyExists(bankAccount.Code))
+                    await _bankAccountRepository.AddBankAccount(bankAccount);
 
-                if (transaction.TransactionList.Any())
-                    await _transactionRepository.AddTransactions(transaction.TransactionList.ToList());
+                if (transactionsToAdd.Any())
+                    await _transactionRepository.AddTransactions(transactionsToAdd);
 
                 uow.Complete();
             }
 
             return AddOfxImportResponse(bankAccount, transaction.TransactionList.ToList());
+        }
+
+        private List<Transaction> SetTransactionList(List<Transaction> transactionList, List<Transaction> transactionOldList)
+        {
+            var transactionsToAdd = transactionList;
+
+            transactionList.ForEach(transaction =>
+            {
+                if (transactionOldList.Any(x => x.TransactionValue == transaction.TransactionValue && x.Date == transaction.Date && 
+                                                x.Description == transaction.Description && x.Type == transaction.Type))
+                    transactionsToAdd.Remove(transaction);
+            });
+
+            return transactionsToAdd;
         }
 
         private AddOfxImportResponse AddOfxImportResponse(BankAccount bankAccount, List<Transaction> transactionList)

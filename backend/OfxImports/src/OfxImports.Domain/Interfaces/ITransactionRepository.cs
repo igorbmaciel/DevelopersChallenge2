@@ -7,5 +7,6 @@ namespace OfxImports.Domain.Interfaces
     public interface ITransactionRepository
     {
         Task AddTransactions(List<Transaction> transactionList);
+        Task<List<Transaction>> GetAllTransactions();
     }
 }

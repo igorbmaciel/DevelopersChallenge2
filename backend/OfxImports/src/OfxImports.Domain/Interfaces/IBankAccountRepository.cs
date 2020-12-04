@@ -6,5 +6,6 @@ namespace OfxImports.Domain.Interfaces
     public interface IBankAccountRepository
     {
         Task AddBankAccount(BankAccount bankAccount);
+        Task<bool> BankAccountAlreadyExists(int code);
     }
 }
