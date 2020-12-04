@@ -39,8 +39,9 @@ namespace OfxImports.Domain.Handlers
                 return null;
 
             var directoryFile = Directory.GetCurrentDirectory();
+            string newPath = Path.GetFullPath(Path.Combine(directoryFile, @"..\..\..\..\OFX\"));
 
-            var extractResponse = OfxImportFactory.GetExtract($"{directoryFile}{command.FileName}", new ParserSettingsResponse(), _notification);
+            var extractResponse = OfxImportFactory.GetExtract($"{newPath}{command.FileName}", new ParserSettingsResponse(), _notification);
 
             if (_notification.HasNotification())
                 return null;
@@ -48,9 +49,15 @@ namespace OfxImports.Domain.Handlers
             var bankAccount = new BankAccount();
             var transaction = new Transaction();
 
-            bankAccount.AddBankAccount(extractResponse.BankAccount.Type, extractResponse.BankAccount.AgencyCode, extractResponse.BankAccount.Code, extractResponse.BankAccount.AccountCode);
+            bankAccount = bankAccount.AddBankAccount(extractResponse.BankAccount.Type, extractResponse.BankAccount.AgencyCode, extractResponse.BankAccount.Code, extractResponse.BankAccount.AccountCode);
 
-            extractResponse.Transactions.ForEach(t => transaction.AddTransaction(t.Type, t.Date, t.TransactionValue, t.Description, bankAccount.Id));
+            if (await _bankAccountRepository.BankAccountAlreadyExists(bankAccount.Code))
+            {
+                var bankAccountId = await _bankAccountRepository.GetIdByCode(bankAccount.Code);
+                extractResponse.Transactions.ForEach(t => transaction.AddTransaction(t.Type, t.Date, t.TransactionValue, t.Description, bankAccountId));
+            }
+            else
+                extractResponse.Transactions.ForEach(t => transaction.AddTransaction(t.Type, t.Date, t.TransactionValue, t.Description, bankAccount.Id));
 
             var transactionOldList = await _transactionRepository.GetAllTransactions();
 
@@ -72,13 +79,13 @@ namespace OfxImports.Domain.Handlers
 
         private List<Transaction> SetTransactionList(List<Transaction> transactionList, List<Transaction> transactionOldList)
         {
-            var transactionsToAdd = transactionList;
+            var transactionsToAdd = new List<Transaction>();
 
             transactionList.ForEach(transaction =>
             {
-                if (transactionOldList.Any(x => x.TransactionValue == transaction.TransactionValue && x.Date.Date == transaction.Date.Date && 
+                if (!transactionOldList.Any(x => x.TransactionValue == transaction.TransactionValue && x.Date.Date == transaction.Date.Date && 
                                                 x.Description == transaction.Description && x.Type == transaction.Type))
-                    transactionsToAdd.Remove(transaction);
+                    transactionsToAdd.Add(transaction);
             });
 
             return transactionsToAdd;
@@ -86,8 +93,6 @@ namespace OfxImports.Domain.Handlers
 
         private AddOfxImportResponse AddOfxImportResponse(BankAccount bankAccount, List<Transaction> transactionList)
         {
-            bankAccount.TransactionList = transactionList;
-
             return new AddOfxImportResponse()
             {
                 BankAccount = bankAccount

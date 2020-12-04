@@ -1,5 +1,4 @@
-﻿using EFCore.BulkExtensions;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using OfxImports.Domain.Entities;
 using OfxImports.Domain.Interfaces;
 using OfxImports.Infra.Context;
@@ -18,9 +17,8 @@ namespace OfxImports.Infra.Repositories
 
         public async Task AddTransactions(List<Transaction> transactionList)
         {
-            var bulkConfig = new BulkConfig { PreserveInsertOrder = true, SetOutputIdentity = true, BatchSize = 4000 };
+            Context.AddRange(transactionList);
 
-            await Context.BulkInsertAsync(transactionList, bulkConfig);
             await Context.SaveChangesAsync();
         }
 

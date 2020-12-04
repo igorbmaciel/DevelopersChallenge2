@@ -3,9 +3,10 @@
   "texts": {
     "InvalidOfxFile": "Arquivo ofx invalido",
     "InvalidXmlFile": "Arquivo xml invalido",
-    "InvalidOfxSouceFile": "Arquivo souce ofx invalido",
+    "InvalidOfxSouceFile": "O arquivo nao foi encontrado",
     "InvalidOfxDate": "Data do arquivo ofx invalida",
     "InvalidTransactionValue": "Dado de transação invalida",
-    "InvalidFileName": "Nome do arquivo invalido"
+    "InvalidFileName": "Nome do arquivo invalido",
+    "InvalidFileType": "Tipo de arquivo precisa ser ofx"
   }
 }
