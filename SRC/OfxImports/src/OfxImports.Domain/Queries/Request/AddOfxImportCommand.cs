@@ -2,6 +2,7 @@
 using MediatR;
 using OfxImports.Domain.Base;
 using OfxImports.Domain.Queries.Response;
+using System.IO;
 
 namespace OfxImports.Domain.Queries.Request
 {
@@ -23,12 +24,17 @@ namespace OfxImports.Domain.Queries.Request
                 RuleFor(e => e.FileName)
                     .NotEmpty()
                     .WithState(e => EntityError.InvalidFileName);
-               
+
+                RuleFor(e => e.FileName)
+                    .Must(x => Path.GetExtension(x).ToLower() == ".ofx")
+                    .WithState(e => EntityError.InvalidFileType);
+
             }
 
             public enum EntityError
             {
-                InvalidFileName
+                InvalidFileName,
+                InvalidFileType
             }
         }
     }

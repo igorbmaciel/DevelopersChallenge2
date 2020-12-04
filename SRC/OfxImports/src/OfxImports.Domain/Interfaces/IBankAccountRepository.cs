@@ -1,4 +1,5 @@
 ﻿using OfxImports.Domain.Entities;
+using System;
 using System.Threading.Tasks;
 
 namespace OfxImports.Domain.Interfaces
@@ -7,5 +8,6 @@ namespace OfxImports.Domain.Interfaces
     {
         Task AddBankAccount(BankAccount bankAccount);
         Task<bool> BankAccountAlreadyExists(int code);
+        Task<Guid> GetIdByCode(int code);
     }
 }

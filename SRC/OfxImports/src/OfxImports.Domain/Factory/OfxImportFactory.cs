@@ -61,6 +61,9 @@ namespace OfxImports.Domain.Factory
 
             ExportToXml(ofxSourceFile, ofxSourceFile + ".xml", notification);
 
+            if (notification.HasNotification())
+                return null;
+
             string elementBeingRead = "";
             TransactionResponse currentTransaction = null;
 
