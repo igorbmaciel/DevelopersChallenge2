@@ -3,14 +3,14 @@ WORKDIR /app
 
 # Copy csproj and restore as distinct layers
 COPY nuget.docker ./nuget.config
-COPY Poll ./POLL
+COPY OfxImports ./OFXIMPORTS
 
-WORKDIR /app/POLL/src/Poll.Web
+WORKDIR /app/OFXIMPORTS/src/OfxImports.Web
 RUN dotnet restore
-RUN dotnet publish -c Release -o /app/POLL/out
+RUN dotnet publish -c Release -o /app/OFXIMPORTS/out
 
 # Build runtime image
 FROM microsoft/dotnet:2.2-aspnetcore-runtime AS runtime
 WORKDIR /app
-COPY --from=build /app/POLL/out .
-ENTRYPOINT ["dotnet", "Poll.Web.dll"]
+COPY --from=build /app/OFXIMPORTS/out .
+ENTRYPOINT ["dotnet", "OfxImports.Web.dll"]
