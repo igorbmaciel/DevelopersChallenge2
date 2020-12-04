@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace OfxImports.Domain.Entities
 {
@@ -6,7 +7,7 @@ namespace OfxImports.Domain.Entities
     {
         public Transaction()
         {
-
+            TransactionList = new HashSet<Transaction>();
         }
 
         public Guid Id { get; set; }
@@ -27,6 +28,8 @@ namespace OfxImports.Domain.Entities
 
         public virtual BankAccount BankAccount { get; internal set; }
 
+        internal virtual ICollection<Transaction> TransactionList { get; set; }
+
         public Transaction(string type, DateTime date, double transactionValue, string transactionId, string description, long checksum, Guid bankAccountId)
         {
             Id = Guid.NewGuid();
@@ -39,9 +42,10 @@ namespace OfxImports.Domain.Entities
             Checksum = checksum;
         }
 
-        internal Transaction AddTransaction(string type, DateTime date, double transactionValue, string transactionId, string description, long checksum, Guid bankAccountId)
+        internal void AddTransaction(string type, DateTime date, double transactionValue, string transactionId, string description, long checksum, Guid bankAccountId)
         {
-            return new Transaction(type, date, transactionValue, transactionId, description, checksum, bankAccountId);
+            var transation =  new Transaction(type, date, transactionValue, transactionId, description, checksum, bankAccountId);
+            TransactionList.Add(transation);
         }
 
     }

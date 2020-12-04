@@ -6,7 +6,7 @@ namespace OfxImports.Domain.Queries.Response
     {
         public BankAccountResponse BankAccount { get; set; }
 
-        public IList<TransactionResponse> Transactions { get; set; }
+        public List<TransactionResponse> Transactions { get; set; }
 
 
         public ExtractResponse(BankAccountResponse bankAccount,
