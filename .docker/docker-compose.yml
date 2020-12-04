@@ -1,16 +1,16 @@
 version: "3.1"
 services:    
-    poll-api:
-        container_name: poll-api
-        image: poll-api
+    ofx-import-api:
+        container_name: ofx-import-api
+        image: ofx-import-api
         restart: always
         networks:
-            - poll-network
+            - ofx-import-network
         environment:
             ASPNETCORE_ENVIRONMENT: "Development"
         build:
-            context: ../backend/
-            dockerfile: Poll/Dockerfile
+            context: ../SRC/
+            dockerfile: OfxImports/Dockerfile
         ports:
             - "5033:80"
         depends_on:
@@ -21,7 +21,7 @@ services:
         container_name: pgsql-data
         image: postgres:12
         networks:
-            - poll-network
+            - ofx-import-network
         volumes:
             - ./database/pgsql/data:/var/lib/postgresql
         ports:
@@ -31,5 +31,5 @@ services:
             POSTGRES_PASSWORD: "cmsol@strongpass!123"
             POSTGRES_DB: poll-pgsql    
 networks:
-  poll-network:
+  ofx-import-network:
     driver: bridge
