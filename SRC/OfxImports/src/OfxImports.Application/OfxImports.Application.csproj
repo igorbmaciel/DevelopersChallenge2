@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tnf.Domain" Version="2.7.0.21802" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OfxImports.Domain\OfxImports.Domain.csproj" />
+    <ProjectReference Include="..\OfxImports.Infra\OfxImports.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
