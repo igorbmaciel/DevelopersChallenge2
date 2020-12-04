@@ -76,7 +76,7 @@ namespace OfxImports.Domain.Handlers
 
             transactionList.ForEach(transaction =>
             {
-                if (transactionOldList.Any(x => x.TransactionValue == transaction.TransactionValue && x.Date == transaction.Date && 
+                if (transactionOldList.Any(x => x.TransactionValue == transaction.TransactionValue && x.Date.Date == transaction.Date.Date && 
                                                 x.Description == transaction.Description && x.Type == transaction.Type))
                     transactionsToAdd.Remove(transaction);
             });
