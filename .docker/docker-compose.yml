@@ -1,22 +1,5 @@
 version: "3.1"
-services:    
-    ofx-import-api:
-        container_name: ofx-import-api
-        image: ofx-import-api
-        restart: always
-        networks:
-            - ofx-import-network
-        environment:
-            ASPNETCORE_ENVIRONMENT: "Development"
-        build:
-            context: ../SRC/
-            dockerfile: OfxImports/Dockerfile
-        ports:
-            - "5033:80"
-        depends_on:
-            - pgsql-data
-        links:
-            - pgsql-data      
+services:        
     pgsql-data:
         container_name: pgsql-data
         image: postgres:12
@@ -29,7 +12,7 @@ services:
         environment:
             POSTGRES_USER: pguser
             POSTGRES_PASSWORD: "cmsol@strongpass!123"
-            POSTGRES_DB: poll-pgsql    
+            POSTGRES_DB: ofximports-pgsql    
 networks:
   ofx-import-network:
     driver: bridge
