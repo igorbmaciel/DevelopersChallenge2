@@ -51,7 +51,9 @@ namespace OfxImports.Domain.Handlers
 
             bankAccount = bankAccount.AddBankAccount(extractResponse.BankAccount.Type, extractResponse.BankAccount.AgencyCode, extractResponse.BankAccount.Code, extractResponse.BankAccount.AccountCode);
 
-            if (await _bankAccountRepository.BankAccountAlreadyExists(bankAccount.Code))
+            var bankAccountAlreadyExists = await _bankAccountRepository.BankAccountAlreadyExists(bankAccount.Code);
+
+            if (bankAccountAlreadyExists)
             {
                 var bankAccountId = await _bankAccountRepository.GetIdByCode(bankAccount.Code);
                 extractResponse.Transactions.ForEach(t => transaction.AddTransaction(t.Type, t.Date, t.TransactionValue, t.Description, bankAccountId));
@@ -65,7 +67,7 @@ namespace OfxImports.Domain.Handlers
 
             using (var uow = _unitOfWorkManager.Begin())
             {
-                if (!await _bankAccountRepository.BankAccountAlreadyExists(bankAccount.Code))
+                if (!bankAccountAlreadyExists)
                     await _bankAccountRepository.AddBankAccount(bankAccount);
 
                 if (transactionsToAdd.Any())
