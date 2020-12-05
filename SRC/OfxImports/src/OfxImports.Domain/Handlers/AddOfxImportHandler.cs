@@ -97,7 +97,8 @@ namespace OfxImports.Domain.Handlers
         {
             return new AddOfxImportResponse()
             {
-                BankAccount = bankAccount
+                BankAccount = bankAccount,
+                TransactionList = transactionList
             };
         }
     }
